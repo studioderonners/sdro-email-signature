@@ -20,5 +20,3 @@ GENERATE.addEventListener("click", function (e) {
   e.preventDefault();
   document.querySelector('main p').innerHTML = `<xmp class="whitespace-pre-wrap m-0">${generateHTML()}</xmp>`;
 })
-
-console.log(GENERATE);
