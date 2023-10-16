@@ -1,1 +1,0 @@
-# sdro-email-signature
