@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./index.f3baba39.css" rel="stylesheet">
+  <title>SDRO Email Signature Generator</title>
+</head>
+
+<body class="bg-zinc-900 flex flex-row flex-wrap gap-4 h-screen justify-end p-4 w-screen">
+  <main class="bg-zinc-400 grow-[4] max-h-full max-w-7xl overflow-hidden p-6 portrait:h-fit rounded-xl">
+    <p class="text-xl">Generate the HTML code for your new Email Signature here!</p>
+  </main>
+  <aside class="flex flex-col gap-4 grow min-w-[300px] portrait:w-full text-xl text-zinc-950">
+    <section id="controller" class="bg-zinc-100 flex flex-col gap-4 h-fit p-6 rounded-xl">
+      <h2 class="text-3xl">Email Signature Generator</h2>
+      <form action="#" class="flex flex-col gap-4">
+        <div class="gap-2 grid grid-cols-[20%_1fr]"> <label for="email_name">Name:</label> <input type="text"
+            name="email_name" id="email_name"> </div>
+        <div class="gap-2 grid grid-cols-[20%_1fr]"> <label for="email_function">Function:</label> <input type="text"
+            name="email_function" id="email_function"> </div>
+        <div class="gap-2 grid grid-cols-[20%_1fr]"> <label for="email_phone">Phone:</label> <input type="text"
+            name="email_phone" id="email_phone"> </div>
+        <div class="gap-2 grid grid-cols-[20%_1fr]">
+          <h2>Availability:</h2>
+          <div class="gap-2 grid grid-cols-6"> <label for="email_time_in">From:</label> <input type="number"
+              name="email_time_in" id="email_time_in" class="col-span-2"> <label for="email_time_out">To:</label> <input
+              type="number" name="email_time_out" id="email_time_out" class="col-span-2"> </div>
+        </div>
+        <div class="flex flex-row gap-2 mt-6"> <button id="btn-generate"
+            class="bg-zinc-300 hover:bg-zinc-400 px-3 py-1 rounded-lg" type="submit" value="Generate">Generate
+            Code</button> </div>
+      </form>
+    </section>
+  </aside>
+  <script type="module" src="/index.53439e73.js"></script>
+  <script src="./index.93bf75a1.js" nomodule defer></script>
+</body>
+
+</html>
